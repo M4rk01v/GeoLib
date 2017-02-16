@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Contracts", "GeoLib.Contracts\GeoLib.Contracts.csproj", "{150730B8-E209-45A1-88F1-9473612CEA20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Core", "GeoLib.Core\GeoLib.Core.csproj", "{36334759-91F0-42E2-BEAC-6B3172403DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Data", "GeoLib.Data\GeoLib.Data.csproj", "{C8192CBC-8093-47E9-954B-6F0E1CB2E19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Services", "GeoLib.Services\GeoLib.Services.csproj", "{D22DB8BC-13FB-4E1C-A8F6-693F6FF6E140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Tests", "GeoLib.Tests\GeoLib.Tests.csproj", "{A2C471AE-1607-41A8-A566-108B5C7595A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{150730B8-E209-45A1-88F1-9473612CEA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150730B8-E209-45A1-88F1-9473612CEA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150730B8-E209-45A1-88F1-9473612CEA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36334759-91F0-42E2-BEAC-6B3172403DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36334759-91F0-42E2-BEAC-6B3172403DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36334759-91F0-42E2-BEAC-6B3172403DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36334759-91F0-42E2-BEAC-6B3172403DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8192CBC-8093-47E9-954B-6F0E1CB2E19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8192CBC-8093-47E9-954B-6F0E1CB2E19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8192CBC-8093-47E9-954B-6F0E1CB2E19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8192CBC-8093-47E9-954B-6F0E1CB2E19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22DB8BC-13FB-4E1C-A8F6-693F6FF6E140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22DB8BC-13FB-4E1C-A8F6-693F6FF6E140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22DB8BC-13FB-4E1C-A8F6-693F6FF6E140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22DB8BC-13FB-4E1C-A8F6-693F6FF6E140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C471AE-1607-41A8-A566-108B5C7595A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C471AE-1607-41A8-A566-108B5C7595A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C471AE-1607-41A8-A566-108B5C7595A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C471AE-1607-41A8-A566-108B5C7595A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
